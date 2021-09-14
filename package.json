@@ -5,8 +5,8 @@
     "scripts": {
         "test": "node test",
         "xlsxTransform": "node utils/xlsxTransform.js data",
-        "dev": "webpack serve --open /view/index.html",
-        "build": "webpack --mode production && cp -r ./view/* ./public/ && cp -r ./data ./public/ && mv public build"
+        "dev": "cp ./build/bundle.js ./view && webpack serve --open /view/index.html",
+        "build": "rm -rf ./build && rm -rf ./build && rm -rf ./view/bundle.js && webpack --mode production && cp ./public/bundle.js ./view && cp -r ./view/* ./public/ && cp -r ./data ./public/ && mv public build"
     },
     "dependencies": {
         "@babel/core": "^7.15.4",
