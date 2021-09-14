@@ -46,7 +46,7 @@ class App{
             <div id="title">
                 人生重开模拟器<br>
                 <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
-                <div style="font-size:0.7rem; font-weight:normal;">本网站使用云开发平台部署，无需服务器和多余的配置，一键把你的前端代码发成可访问网站。</br>欢迎一起魔改：<a href = "https://github.com/AliyunWorkbench/lifeRestart#readme">魔改地址</div>
+                <div style="font-size:0.7rem; font-weight:normal;">本网站使用云开发平台部署</br>无需服务器和多余的配置，一键把你的前端代码发成可访问网站</br>欢迎一起魔改：<a href = "https://github.com/AliyunWorkbench/lifeRestart#readme">魔改地址</div>
             </div>
             <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
         </div>
